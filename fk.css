@@ -1,0 +1,272 @@
+
+.container-fluid{
+width: 100%;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.row>[class*="col-"]{
+    padding: 12px;
+}
+.row{
+    justify-content: center;
+} 
+.row-2{
+    display: flex;
+    flex-wrap: wrap;
+}
+.row-2>[class*="col-"]{
+    padding: 12px;
+}
+.row-3{
+    display: flex;
+    flex-wrap: wrap;
+}
+.row-3>[class*="col-"]{
+    padding: 12px;
+}
+.row-4{
+    display: flex;
+    flex-wrap: wrap;
+}
+.row-4>[class*="col-"]{
+    padding: 12px;
+}
+.row-5{
+    display: flex;
+    flex-wrap: wrap;
+}
+.row-5>[class*="col-"]{
+    padding: 12px;
+}
+
+.col-1{
+    width: 8.33%;
+}
+.col-2{
+    width: 16.66%;
+}
+.col-3{
+    width: 25%;
+}
+.col-4{
+    width: 33.33%;
+}
+.col-5{
+    width: 41.66%;
+}
+.col-6{
+    width: 50%;
+}
+.col-7{
+    width: 58.33%;
+}
+.col-8{
+    width: 66.66%;
+}
+.col-9{
+    width: 75%;
+}
+.col-10{
+    width: 83.33%;
+}
+.col-11{
+    width: 91.66%;
+}
+.col-12{
+    width: 100%;
+}
+.box{
+    height: 56px;
+    background-color: rgba(28, 24, 26, 0.738);
+    text-align: center;
+    align-items: center;
+    padding-top: 13px;
+color: rgb(255, 255, 255);
+font-size: 20PX;
+}
+.box a{
+    text-decoration: none;
+    font-size: 24px;
+    color: rgb(33, 60, 194);
+    font-weight: 600;
+}
+.h-1{
+    height: 100px;
+    color: rgb(255, 255, 255);
+}
+.lh{
+    background-color: rgb(24, 23, 23);
+color: aliceblue;
+padding: 110px 0px 192px 100px;
+overflow: hidden;
+}
+.nen{
+    display: flex;
+
+}
+.lex{
+    width: 300px;
+    height: 400px;
+    background-color: aqua;
+    position: relative;
+
+margin-right: 48px;
+
+}
+.anh-1{
+    width: 300px;
+    height: 400px;
+
+transition-duration: 2s;
+overflow: hidden;
+visibility: visible;
+opacity: 1;
+}
+
+.anh-1 img{
+    width: 100%;
+}
+.man a{
+    width: 0;
+    height: 100%;
+    background-color: rgba(253, 55, 167, 0.497);
+    position: absolute;
+left: 0;
+bottom: 0;
+    transition-duration: 2s;
+    visibility: hidden;
+opacity: 0;
+text-align: center;
+line-height: 400px;
+font-size: 30px;
+text-decoration: none;
+color: rgb(5, 106, 214);
+font-weight: 600;
+overflow: hidden;
+}
+.lex:hover .man a{
+    opacity: 1;
+    width: 100%;
+    visibility: visible;
+}
+.anh-2{
+    width: 300px;
+    height: 400px;
+    overflow: hidden;
+
+}
+.anh-2 img{
+    width: 100%;
+}
+
+.anh-3{
+    width: 300px;
+    height: 400px;
+    overflow: hidden;
+
+}
+.anh-3 a img{
+    width: 100%;
+}
+.man-2 a{
+    width: 300px;
+    height: 400px;
+    background-color: rgba(55, 95, 253, 0.914);
+    position: absolute;
+left: 0;
+top:0;
+    transition-duration: 2s;
+    visibility: hidden;
+opacity: 0;
+text-align: center;
+line-height: 400px;
+font-size: 30px;
+text-decoration: none;
+color: rgb(253, 240, 255);
+font-weight: 600;
+}
+.lex:hover .man-2 a{
+    opacity: 1;
+
+    visibility: visible;
+}
+.man-3 a{
+    width: 0;
+    height: 100%;
+    background-color: rgba(253, 55, 167, 0.497);
+    position: absolute;
+left: 0;
+bottom: 0;
+    transition-duration: 2s;
+    visibility: hidden;
+opacity: 0;
+text-align: center;
+line-height: 400px;
+font-size: 30px;
+text-decoration: none;
+color: rgb(5, 83, 165);
+font-weight: 600;
+}
+.lex:hover .man-3 a{
+    opacity: 1;
+    width: 100%;
+    visibility: visible;
+}
+.lex p{
+    padding: 20px 20px;
+}
+.footer{
+    background-color: rgb(38, 35, 35);
+margin-left: -53px;
+overflow: hidden;
+}
+.k-1{
+    height: 36px;
+}
+.box-2{
+    height: 36px;
+    /* background-color: rgba(28, 24, 26, 0.738); */
+    text-align: center;
+    align-items: center;
+    padding-top: 13px;
+color: rgb(255, 255, 255);
+font-size: 13PX;
+}
+
+.k-1 a{
+    text-decoration: none;
+    font-size: 22px;
+    color: rgb(169, 200, 254);
+    font-weight: 500;
+}
+.row-2{
+    margin-top: 11px;
+}
+.row-3{
+    justify-content: flex-end;
+
+}
+.row-4{
+    justify-content: center;
+   
+}
+.row-5{
+    justify-content: flex-end;
+   
+    margin-bottom: 20px;
+}
+
+.row-2 a{
+    font-size: 22px;
+    font-weight: 700;
+}
+.l-1 a{
+    font-size: 28px;
+}
+.p2{
+    font-size: 12px;
+    margin-top: -30px;
+
+}
